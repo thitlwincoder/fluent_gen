@@ -1,0 +1,11 @@
+name: fluent_gen
+
+packages:
+  - packages/*
+
+command:
+  version:
+    # Generate commit links in package changelogs.
+    linkToCommits: true
+    # Skip generation of shared changelogs file in the repo root
+    workspaceChangelog: false
